@@ -1,7 +1,8 @@
-import { defineConfig } from 'vitepress'
+// .vitepress/config.js
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   title: "RecceLabDocumentation",
   description: "Documentation page for Reccee Lab's Dashoard",
   themeConfig: {
@@ -29,6 +30,7 @@ export default defineConfig({
           { text: 'Backend Architecture', link: '/backend-architecture' },
           { text: 'Data Architecture', link: '/data-architecture' },
           { text: 'AI/ML Implementation', link: '/ai-ml-implementation' },
+          { text: 'LLM Architecture', link: '/llm-architecture' },
         ]
       },
       {
