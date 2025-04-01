@@ -13,24 +13,12 @@ This document outlines the data architecture of the Marketing Analytics Dashboar
    - Performance indicators
    - Channel-specific metrics
 
-### Derived Data Sources
-1. Predictive Model Results
-   - Customer acquisition predictions
-   - ROI forecasts
-   - Seasonality patterns
-
-2. Generated Reports
-   - LLM-generated summaries
-   - Custom analytics reports
-   - Performance dashboards
-
 ## Data Flow
 
 ### Ingestion Pipeline
 1. Data Collection
    - CSV file upload
    - API integrations
-   - Real-time data streams
 
 2. Data Validation
    - Schema validation
@@ -40,23 +28,21 @@ This document outlines the data architecture of the Marketing Analytics Dashboar
 3. Data Transformation
    - Cleaning
    - Normalization
-   - Feature engineering
 
 ### Processing Pipeline
 1. Batch Processing
-   - Daily aggregations
+   - Monthly aggregations
    - Historical analysis
    - Model training
 
 2. Real-time Processing
-   - Live metrics updates
-   - Streaming analytics
-   - Real-time predictions
+   - Run predictions
+   - Store predictions
 
 ## Storage Architecture
 
 ### Primary Storage
-- PostgreSQL Database
+- MongoDB Database
   - Campaign data
   - Metrics
   - User data
