@@ -29,7 +29,6 @@ This project is a sophisticated data analysis pipeline designed to process user 
 - **Purpose**: This file sets up a Flask API server to handle incoming queries and return processed results. It acts as the interface between the user and the data processing pipeline.
 - **Key Components**:
   - **`/api/query`**: An endpoint that processes queries through the pipeline. It validates the request, runs the pipeline, and formats the response based on the query type.
-  - **`/api/health`**: A health check endpoint that verifies the server status, ensuring the API is running smoothly.
 
 ### 3. `description_generator.py`
 
