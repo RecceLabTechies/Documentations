@@ -1,7 +1,9 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a id="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -53,6 +55,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 This repository contains the comprehensive documentation for the AI-Augmented Marketing Analytics Dashboard project. The documentation is built using VitePress and provides detailed technical information, architecture guides, and implementation details for the dashboard system.
@@ -61,20 +64,21 @@ This repository contains the comprehensive documentation for the AI-Augmented Ma
 
 ### Built With
 
-* [![VitePress][VitePress]][VitePress-url]
-* [![Mermaid][Mermaid]][Mermaid-url]
-* [![Markdown][Markdown]][Markdown-url]
+- [![VitePress][VitePress]][VitePress-url]
+- [![Mermaid][Mermaid]][Mermaid-url]
+- [![Markdown][Markdown]][Markdown-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 To get a local copy of the documentation up and running, follow these simple steps.
 
 ### Prerequisites
 
-* npm
+- npm
   ```sh
   npm install npm@latest -g
   ```
@@ -105,16 +109,19 @@ To get a local copy of the documentation up and running, follow these simple ste
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DOCUMENTATION STRUCTURE -->
+
 ## Documentation Structure
 
 The documentation is organized into several key sections:
 
 ### Core Documentation
+
 - [Project Overview](docs/overview.md) - High-level introduction and project goals
 - [Technical Requirements](docs/technical-requirements.md) - System requirements and dependencies
 - [Timeline](docs/timeline.md) - Project development timeline and milestones
 
 ### Architecture Documentation
+
 - [Frontend Architecture](docs/frontend-architecture.md) - UI/UX design and implementation details
 - [Backend Architecture](docs/backend-architecture.md) - Server-side architecture and design
 - [Data Architecture](docs/data-architecture.md) - Data models, storage, and management
@@ -122,12 +129,14 @@ The documentation is organized into several key sections:
 - [AI/ML Implementation](docs/ai-ml-implementation.md) - Machine learning features and algorithms
 
 ### Deployment & Operations
+
 - [Deployment Guide](docs/deployment.md) - Step-by-step deployment instructions
 - [Stakeholders](docs/stakeholders.md) - Project stakeholders and their roles
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
 - [ ] Add interactive diagrams for architecture documentation
@@ -135,15 +144,16 @@ The documentation is organized into several key sections:
 - [ ] Add version control for documentation
 - [ ] Create API documentation section
 - [ ] Add user guides and tutorials
-    - [ ] Getting started guide
-    - [ ] Advanced features guide
-    - [ ] Troubleshooting guide
+  - [ ] Getting started guide
+  - [ ] Advanced features guide
+  - [ ] Troubleshooting guide
 
 See the [open issues](https://github.com/RecceLabTechies/Documentation/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -157,8 +167,8 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
@@ -166,6 +176,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
+
 ## Contact
 
 Project Link: [https://github.com/RecceLabTechies/Documentation](https://github.com/RecceLabTechies/Documentation)
@@ -173,15 +184,17 @@ Project Link: [https://github.com/RecceLabTechies/Documentation](https://github.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-* [VitePress](https://vitepress.dev/)
-* [Mermaid](https://mermaid.js.org/)
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+- [VitePress](https://vitepress.dev/)
+- [Mermaid](https://mermaid.js.org/)
+- [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/RecceLabTechies/Documentation.svg?style=for-the-badge
 [contributors-url]: https://github.com/RecceLabTechies/Documentation/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/RecceLabTechies/Documentation.svg?style=for-the-badge

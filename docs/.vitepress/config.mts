@@ -8,41 +8,39 @@ export default withMermaid({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Overview', link: '/overview' },
-      { text: 'Technical Docs', link: '/technical-requirements' }
+      { text: "Home", link: "/" },
+      { text: "Installation", link: "/installation-guide" },
+      { text: "User Manual", link: "/user-manual" },
+      { text: "Architecture", link: "/system-architecture" },
     ],
 
     sidebar: [
       {
-        text: 'Project Overview',
+        text: "Getting Started",
         items: [
-          { text: 'Overview', link: '/overview' },
-          { text: 'Timeline', link: '/timeline' },
-          { text: 'Stakeholders', link: '/stakeholders' }
-        ]
+          { text: "Introduction", link: "/" },
+          { text: "Installation Guide", link: "/installation-guide" },
+        ],
       },
       {
-        text: 'Technical Documentation',
+        text: "User Documentation",
         items: [
-          { text: 'Technical Requirements', link: '/technical-requirements' },
-          { text: 'Frontend Architecture', link: '/frontend-architecture' },
-          { text: 'Backend Architecture', link: '/backend-architecture' },
-          { text: 'Data Architecture', link: '/data-architecture' },
-          { text: 'AI/ML Implementation', link: '/ai-ml-implementation' },
-          { text: 'LLM Architecture', link: '/llm-architecture' },
-        ]
+          { text: "User Manual", link: "/user-manual" },
+          { text: "Troubleshooting Guide", link: "/troubleshooting-guide" },
+        ],
       },
       {
-        text: 'Deployment & Operations',
+        text: "Technical Documentation",
         items: [
-          { text: 'Deployment Guide', link: '/deployment' },
-        ]
-      }
+          { text: "System Architecture", link: "/system-architecture" },
+          { text: "Security Architecture", link: "/security-architecture" },
+          { text: "Maintenance Guide", link: "/maintenance-documentation" },
+        ],
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+    ],
+  },
+});

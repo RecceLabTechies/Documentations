@@ -31,4 +31,3 @@ features:
   - title: Role-Based Access
     details: Customized views and access levels for different stakeholders including managers, analysts, and executives
 ---
-
