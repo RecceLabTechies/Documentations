@@ -125,7 +125,7 @@ graph TD
 
 ## Security Architecture
 
-The security architecture of this system is documented in detail in [security-architecture.md](./security-architecture.md). This dedicated security documentation covers:
+The security architecture of this system is documented in detail in [security-architecture.md](./1-system-architecture). This dedicated security documentation covers:
 
 - Authentication and Authorization Flows
 - Security Measures and Controls

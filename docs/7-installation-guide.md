@@ -38,7 +38,7 @@ GROQ_API_KEY=<your_key>
 docker compose up --build
 ```
 
-4. Once everything is up and running, you can access the platform at: http://localhost
+4. Once everything is up and running, you can access the platform at: `http://localhost`
 
 ### Default User Accounts
 
@@ -105,9 +105,9 @@ docker-compose up --build
 
 ## Verification
 
-1. Frontend should be accessible at http://localhost:3000 (local) or http://47.84.36.73 (ECS)
-2. Backend API should be accessible at http://localhost:8000 (local)
-3. LLM Backend should be accessible at http://localhost:8001 (local)
+1. Frontend should be accessible at `http://localhost:3000` (local) or `http://47.84.36.73` (ECS)
+2. Backend API should be accessible at `http://localhost:8000` (local)
+3. LLM Backend should be accessible at `http://localhost:8001` (local)
 4. Test the connection by logging in with one of the provided accounts
 
 ## Common Installation Issues
