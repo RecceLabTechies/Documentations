@@ -1,11 +1,13 @@
 # Model Documentation -- Statistical Models
 
 ## 1. Overview
+
 The system implements two main statistical models: a Prophet-based time series forecasting model and a campaign performance analysis model. These models are designed to provide accurate predictions and insights for marketing campaign performance.
 
 ## 2. Prophet Time Series Model
 
 ### 2.1 Model Architecture
+
 ```mermaid
 graph TD
     A[Historical Data] --> B[Data Preprocessing]
@@ -15,6 +17,7 @@ graph TD
 ```
 
 ### 2.2 Implementation Details
+
 - **Model Class**: `ProphetPredictionModel`
 - **Database Integration**: MongoDB
 - **Key Methods**:
@@ -25,8 +28,9 @@ graph TD
   - `delete`: Remove prediction
 
 ### 2.3 Model Parameters
+
 - **Growth**: Linear
-- **Seasonality**: 
+- **Seasonality**:
   - Daily
   - Weekly
   - Yearly
@@ -37,6 +41,7 @@ graph TD
 ## 3. Campaign Performance Model
 
 ### 3.1 Model Architecture
+
 ```mermaid
 graph TD
     A[Campaign Data] --> B[Data Aggregation]
@@ -46,6 +51,7 @@ graph TD
 ```
 
 ### 3.2 Implementation Details
+
 - **Model Class**: `CampaignModel`
 - **Database Integration**: MongoDB
 - **Key Methods**:
@@ -60,6 +66,7 @@ graph TD
   - `delete`: Remove campaign
 
 ### 3.3 Performance Metrics
+
 - **Key Metrics**:
   - Click-through Rate (CTR)
   - Conversion Rate
@@ -73,16 +80,19 @@ graph TD
 ## 4. Data Processing Pipeline
 
 ### 4.1 Data Collection
+
 - Real-time data ingestion
 - Historical data integration
 - Data validation
 
 ### 4.2 Data Preprocessing
+
 - Missing value handling
 - Outlier detection
 - Feature engineering
 
 ### 4.3 Data Storage
+
 - MongoDB collections
 - Indexed queries
 - Data partitioning
@@ -90,10 +100,12 @@ graph TD
 ## 5. Model Updates and Maintenance
 
 ### 5.1 Retraining Schedule
+
 - Prophet Model: Weekly
 - Campaign Model: Daily
 
 ### 5.2 Performance Monitoring
+
 - Real-time metrics tracking
 - Alert system for anomalies
 - Automated retraining triggers
@@ -101,11 +113,13 @@ graph TD
 ## 6. Integration with Frontend
 
 ### 6.1 API Endpoints
+
 - Prediction retrieval
 - Campaign data access
 - Performance metrics
 
 ### 6.2 Data Visualization
+
 - Time series plots
 - Performance dashboards
 - Trend analysis charts
@@ -113,11 +127,13 @@ graph TD
 ## 7. Security and Privacy
 
 ### 7.1 Data Protection
+
 - Encryption at rest
 - Secure data transfer
 - Access control
 
 ### 7.2 Compliance
+
 - GDPR compliance
 - Data retention policies
-- Audit logging 
+- Audit logging

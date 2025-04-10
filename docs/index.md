@@ -3,19 +3,19 @@
 layout: home
 
 hero:
-  name: "AI Marketing Analytics"
+  name: "Reccelabs LLM Dashboard"
   text: "Cloud-Based Marketing Analytics Dashboard"
   tagline: Empowering marketing decisions with AI-driven insights
   actions:
     - theme: brand
       text: Get Started
-      link: /overview
+      link: /1-system-architecture
     - theme: alt
-      text: Technical Documentation
-      link: /technical-requirements
+      text: User Manual
+      link: /6-user-manual
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/RecceLabTechies/FullStack
 
 features:
   - title: Predictive Analytics

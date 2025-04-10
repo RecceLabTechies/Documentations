@@ -1,7 +1,9 @@
 # Data Flow Documentation
 
 ## 1. System Overview
+
 The system implements a MongoDB-based data architecture with three main data domains:
+
 - User Management
 - Campaign Performance Analytics
 - Prophet Predictions
@@ -9,6 +11,7 @@ The system implements a MongoDB-based data architecture with three main data dom
 ## 2. Data Flow Diagrams
 
 ### 2.1 High-Level Data Flow
+
 ```mermaid
 graph LR
     A[External Systems] --> B[API Layer]
@@ -18,6 +21,7 @@ graph LR
 ### 2.2 Detailed Data Flows
 
 #### 2.2.1 User Data Flow
+
 ```mermaid
 graph TD
     A[User Input] --> B[User Service]
@@ -28,6 +32,7 @@ graph TD
 ```
 
 Data Fields:
+
 - username
 - email
 - role
@@ -38,6 +43,7 @@ Data Fields:
 - user_management_access
 
 #### 2.2.2 Campaign Performance Data Flow
+
 ```mermaid
 graph TD
     A[Campaign Data Input] --> B[Campaign Service]
@@ -48,6 +54,7 @@ graph TD
 ```
 
 Data Fields:
+
 - date
 - campaign_id
 - channel
@@ -60,6 +67,7 @@ Data Fields:
 - revenue
 
 #### 2.2.3 Prophet Prediction Data Flow
+
 ```mermaid
 graph TD
     A[Historical Data] --> B[Prophet Model]
@@ -70,6 +78,7 @@ graph TD
 ```
 
 Data Fields:
+
 - date
 - revenue
 - ad_spend
@@ -78,12 +87,15 @@ Data Fields:
 ## 3. Data Transformation Points
 
 ### 3.1 Input Transformations
+
 1. **User Data**:
+
    - Password hashing
    - Role validation
    - Access rights assignment
 
 2. **Campaign Data**:
+
    - Date normalization
    - Currency conversion
    - Metric calculations
@@ -94,7 +106,9 @@ Data Fields:
    - Data normalization
 
 ### 3.2 Storage Transformations
+
 1. **MongoDB Document Structure**:
+
    - Schema validation
    - Index creation
    - Data type conversion
@@ -107,16 +121,19 @@ Data Fields:
 ## 4. Data Access Patterns
 
 ### 4.1 Read Operations
+
 - Direct collection access through `get_collection()`
 - Schema validation before processing
 - Indexed queries for performance
 
 ### 4.2 Write Operations
+
 - Batch inserts for campaign data
 - Atomic updates for user data
 - Time-series data appends for predictions
 
 ### 4.3 Delete Operations
+
 - Protected user collection (no deletion allowed)
 - Campaign data clearing (preserves structure)
 - Prediction data archival
@@ -124,11 +141,13 @@ Data Fields:
 ## 5. Data Validation Points
 
 ### 5.1 Schema Validation
+
 - User schema validation
 - Campaign performance schema validation
 - Prophet prediction schema validation
 
 ### 5.2 Business Logic Validation
+
 - Access control validation
 - Data integrity checks
 - Temporal consistency validation
@@ -136,11 +155,13 @@ Data Fields:
 ## 6. Data Security Measures
 
 ### 6.1 Access Control
+
 - Role-based access control
 - Collection-level permissions
 - Operation-level restrictions
 
 ### 6.2 Data Protection
+
 - Password hashing
 - Sensitive data encryption
 - Audit logging
