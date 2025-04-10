@@ -9,8 +9,8 @@ export default withMermaid({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Installation", link: "/7-installation-guide" },
-      { text: "User Manual", link: "/6-user-manual" },
+      { text: "Installation", link: "/8-installation-guide" },
+      { text: "User Manual", link: "/7-user-manual" },
       { text: "Architecture", link: "/1-system-architecture" },
     ],
 
@@ -39,14 +39,26 @@ export default withMermaid({
         ],
       },
       {
+        text: "LLM Documentation",
+        items: [
+          { text: "6a. LLM Summary", link: "/6a-llm-summary" },
+          { text: "6b. LLM Architecture", link: "/6b-llm-architecture" },
+          { text: "6c. LLM API", link: "/6c-llm-api" },
+          { text: "6d. LLM Utils", link: "/6d-llm-utils" },
+          {
+            text: "6e-1. LLM Query Processor",
+            link: "/6e-1-llm-query-processor",
+          },
+          { text: "6e-2. Data Processor", link: "/6e-2-data-processor" },
+          { text: "6e-3. Regular Generator", link: "/6e-3-regular-generator" },
+          { text: "6e-4. Report Generator", link: "/6e-4-report-generator" },
+        ],
+      },
+      {
         text: "User Documentation",
         items: [
-          { text: "6. User Manual", link: "/6-user-manual" },
-          { text: "7. Installation Guide", link: "/7-installation-guide" },
-          {
-            text: "8. Troubleshooting Guide",
-            link: "/8-troubleshooting-guide",
-          },
+          { text: "7. User Manual", link: "/7-user-manual" },
+          { text: "8. Installation Guide", link: "/8-installation-guide" },
         ],
       },
       {
@@ -57,8 +69,12 @@ export default withMermaid({
             link: "/9-maintenance-documentation",
           },
           {
-            text: "9a. Security Architecture",
-            link: "/9a-security-architecture",
+            text: "10. Troubleshooting Guide",
+            link: "/10-troubleshooting-guide",
+          },
+          {
+            text: "10a. Security Architecture",
+            link: "/10a-security-architecture",
           },
         ],
       },
