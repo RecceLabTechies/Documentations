@@ -89,9 +89,8 @@
 
 1. **Ongoing Monitoring:**
    - Daily performance checks
-   - Weekly cost analysis
    - Bi-weekly LLM accuracy review
-   - Weekly model performance evaluation
+   - Bi-Weekly model performance evaluation
 
 
 # Additional Project Risks
@@ -125,10 +124,9 @@
 - **Description:**
   - Inconsistent data formats from different sources
   - Missing or incomplete data
-  - Data drift over time
+
 - **Mitigation Strategy:**
   - Implement robust data validation
-  - Regular data quality assessments
   - Automated data cleaning pipelines
 
 
