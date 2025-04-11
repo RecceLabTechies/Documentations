@@ -56,10 +56,10 @@
 
 ### 4. Model Accuracy
 **Risk Level: Medium**
-- **Description:** Time series forecasting by ARIMA/ARIMAX may not be the most accurate due to weak seasonality in the data
+- **Description:** Time series forecasting by machine learning models may not be the most accurate due to weak seasonality in the data
 - **Mitigation Strategy:**
   - Implement automated retraining pipeline
-  - Rerun data preprocessing and ML model pipeline for new data uploads
+  - Testing of other models to better fit dataset
   - Dynamic model selection based on best hyperparameters
   - Maximize data fit by including new data
 - **Status:** Regular model evaluation required

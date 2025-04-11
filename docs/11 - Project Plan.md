@@ -12,10 +12,7 @@ This project spans 9 weeks (Week 5-13) from February 10, 2025, to April 13, 2025
 ### Week 6 (Feb 17 - Feb 23, 2025)
 1. Develop APIs to connect frontend and backend
 2. JSON Selector & Processor
-3. Perform EDA, evaluate prediction accuracy of:
-   - Regression
-   - XGBoost
-   - LSTM
+3. Perform EDA, evaluate prediction accuracy of machine learning models
 
 ### Week 7 (Feb 24 - Mar 2, 2025)
 1. Chart, Report & Description Generation functions
@@ -127,7 +124,7 @@ Buffer week for:
 - Development and implementation of ARIMA models
 - Focus on time series forecasting algorithms
 - Build FrontEnd Charts for Data Analysis
-## Data Analytics Lead - Liew Kai Shiun
+## Data Analytics Lead / ML Developer - Liew Kai Shiun
 ### Project Documentation & Analytics
 - Maintenance of weekly project logs
 - Management of AI/ML data analytics pipeline
@@ -141,7 +138,7 @@ Buffer week for:
 - Development of Prophet model
 - Enhancement of time series forecasting capabilities
 
-## LLM Specialist - David Law Cheng
+## LLM Developer - David Law Cheng
 ### LLM Development
 - Design and implementation of LLM for Groq pipeline
 - Managed with Javian to ensure LLM interaction with backend and frontend
