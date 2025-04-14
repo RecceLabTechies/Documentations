@@ -100,10 +100,8 @@ To manage a user:
 
 ## Settings
 
-## Use the **Settings** tab to configure account or platform-level preferences (not shown, inferred).
+## Use the **Settings** tab to configure account or platform-level preferences.
 
 ## Account Info
 
 Your account info (name and email) is shown in the lower-left sidebar for reference.
-
-**Note:** This is a prototype. Features and UI may evolve.
