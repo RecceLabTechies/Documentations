@@ -75,7 +75,7 @@ cd FullStack
 2. Set your LLM API key from GROQ:
 
 ```bash
-export GROQ_LLM_KEY=<your_own_key>
+export GROQ_API_KEY=<your_own_key>
 ```
 
 You can obtain your key from GROQ at the following link: https://console.groq.com/keys
