@@ -15,7 +15,7 @@ hero:
       link: /6-user-manual
     - theme: alt
       text: View on GitHub
-      link: https://github.com/RecceLabTechies/FullStack
+      link: https://github.com/RecceLabTechies/LLM-Powered-Dashboard
 
 features:
   - title: Predictive Analytics

@@ -21,8 +21,8 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/RecceLabTechies/FullStack.git
-cd FullStack
+git clone https://github.com/RecceLabTechies/LLM-Powered-Dashboard.git
+cd LLM-Powered-Dashboard
 ```
 
 2. Create an .env
@@ -68,8 +68,8 @@ docker compose up --build
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/RecceLabTechies/FullStack.git
-cd FullStack
+git clone https://github.com/RecceLabTechies/LLM-Powered-Dashboard.git
+cd LLM-Powered-Dashboard
 ```
 
 2. Set your LLM API key from GROQ:
